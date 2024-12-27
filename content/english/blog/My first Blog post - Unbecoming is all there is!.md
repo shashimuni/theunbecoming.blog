@@ -34,5 +34,7 @@ draft: False
 Ever since the first moment of comprehension, we were asked to become.
 
 And we believed that life is about becoming.
+!![Image Description](/images/Screenshot%202024-10-23%20220724.png)
+
 
 It was only till I hit some hard roads did I realise that it was always about unbecoming.
