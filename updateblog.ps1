@@ -5,7 +5,7 @@ $sourcePath = "C:\Users\munis\Documents\Obsidian Vault\Blog_Post"
 $destinationPath = "C:\Users\munis\Documents\Unbecoming\content\english\blog"
 
 # Set Github repo 
-$myrepo = "https://github.com/shashimuni/Unbecoming.git"
+$myrepo = "https://github.com/shashimuni/theunbecoming.blog.git"
 
 # Set error handling
 $ErrorActionPreference = "Stop"

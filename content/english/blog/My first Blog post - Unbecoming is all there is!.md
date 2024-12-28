@@ -9,7 +9,7 @@ description: "It is all there is"
 
 date: 2024-12-27T05:00:00Z
 
-image:   !![Image Description](/images/Screenshot%20(2).png)
+image:   
 
 categories: 
 - Spiritual
@@ -29,16 +29,18 @@ draft: False
 
 ### Introduction
 
-   !![Image Description](/images/Screenshot%20(2).png)
+!![Image Description](/images/Pasted%20image%2020241228115507.png)
+   
 
 Ever since the first moment of comprehension, we were asked to become.
 
 And we believed that life is about becoming.
-!![Image Description](/images/Screenshot%202024-10-23%20220724.png)
+
 
 
 It was only till I hit some hard roads did I realise that it was always about unbecoming.
+LETS CHECK
+### Say what?!
 
 
-### YAAYYYY
-LAst day check to the 
+!![Image Description](/images/Pasted%20image%2020241228115523.png)
