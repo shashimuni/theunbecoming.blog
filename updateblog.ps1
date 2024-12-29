@@ -1,8 +1,8 @@
 # PowerShell Script for Windows
 
 # Set variables for Obsidian to Hugo copy
-$sourcePath = "C:\Users\munis\Documents\Obsidian Vault\Blog_Post"
-$destinationPath = "C:\Users\munis\Documents\Unbecoming\content\english\blog"
+$sourcePath = "C:\Users\munis\Documents\theunbecoming.blog_obsidian\Blog_Post"
+$destinationPath = "C:\Users\munis\Documents\theunbecoming.blog_hugo\content\english\blog"
 
 # Set Github repo 
 $myrepo = "https://github.com/shashimuni/theunbecoming.blog.git"
