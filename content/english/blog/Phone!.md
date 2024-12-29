@@ -13,6 +13,6 @@ tags:
   - writing
 draft: false
 ---
-![[image 1.jpg]]
+!![Image Description](/images/image%201.jpg)
 
 How does it look in the phone? 
