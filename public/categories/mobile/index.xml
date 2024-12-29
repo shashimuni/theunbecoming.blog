@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on Hugoplate</title>
+    <link>/categories/mobile/</link>
+    <description>Recent content in Mobile on Hugoplate</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Dec 2024 05:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Check the iPhone sync</title>
+      <link>/blog/phone/</link>
+      <pubDate>Fri, 27 Dec 2024 05:00:00 +0000</pubDate>
+      <guid>/blog/phone/</guid>
+      <description>&lt;p&gt;![[image 1.jpg]]&lt;/p&gt;&#xA;&lt;p&gt;How does it look in the phone?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
