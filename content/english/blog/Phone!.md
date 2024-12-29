@@ -13,9 +13,10 @@ tags:
   - writing
 draft: false
 ---
-Let us check again now!
+How will it look without refactor?
 
-!![Image Description](/images/image%201.jpg)
+
+![Image Description](/images/image%201.jpg)
 
 
 
