@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trial on Hugoplate</title>
+    <link>/categories/trial/</link>
+    <description>Recent content in Trial on Hugoplate</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Dec 2024 05:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/trial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let us check it out</title>
+      <link>/blog/new-second-blog/</link>
+      <pubDate>Fri, 27 Dec 2024 05:00:00 +0000</pubDate>
+      <guid>/blog/new-second-blog/</guid>
+      <description>&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020241229181321.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Shall we check&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

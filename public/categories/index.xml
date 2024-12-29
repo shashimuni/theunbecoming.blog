@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 27 Dec 2024 05:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Check</title>
+      <link>/categories/check/</link>
+      <pubDate>Fri, 27 Dec 2024 05:00:00 +0000</pubDate>
+      <guid>/categories/check/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Reflections</title>
       <link>/categories/reflections/</link>
       <pubDate>Fri, 27 Dec 2024 05:00:00 +0000</pubDate>
@@ -20,6 +27,13 @@
       <link>/categories/spiritual/</link>
       <pubDate>Fri, 27 Dec 2024 05:00:00 +0000</pubDate>
       <guid>/categories/spiritual/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trial</title>
+      <link>/categories/trial/</link>
+      <pubDate>Fri, 27 Dec 2024 05:00:00 +0000</pubDate>
+      <guid>/categories/trial/</guid>
       <description></description>
     </item>
   </channel>
