@@ -8,8 +8,9 @@ posts_dir = r"C:\Users\munis\Documents\theunbecoming.blog_hugo\content\english\b
 attachments_dir = r"C:\Users\munis\Documents\theunbecoming.blog_obsidian"
 static_images_dir = r"C:\Users\munis\Documents\theunbecoming.blog_hugo\static\images"
 
-# Standard image size (4:3 aspect ratio)
-TARGET_SIZE = (1600, 1200)
+# Define target sizes
+TARGET_SIZE_LANDSCAPE = (800, 600)  # 4:3
+TARGET_SIZE_PORTRAIT = (800, 1200)  # 2:3
 
 # Ensure the static images directory exists
 os.makedirs(static_images_dir, exist_ok=True)
@@ -38,6 +39,12 @@ for filename in os.listdir(posts_dir):
             if os.path.exists(image_source):
                 try:
                     with Image.open(image_source) as img:
+                        # Determine orientation and set appropriate size
+                        if img.width > img.height:
+                            TARGET_SIZE = TARGET_SIZE_LANDSCAPE  # Landscape image
+                        else:
+                            TARGET_SIZE = TARGET_SIZE_PORTRAIT  # Portrait image
+                        
                         # Create a new image with the target size and a white background
                         resized_img = Image.new("RGB", TARGET_SIZE, (255, 255, 255))
                         
@@ -56,7 +63,7 @@ for filename in os.listdir(posts_dir):
                         # Explicitly copy the resized image to the static directory
                         shutil.copy(temp_resized_path, image_destination)
                         
-                        print(f"Resized and copied: {image}")
+                        print(f"Resized ({'Landscape' if img.width > img.height else 'Portrait'}) and copied: {image}")
                         
                         # Remove the temporary resized file
                         os.remove(temp_resized_path)
@@ -73,4 +80,4 @@ for filename in os.listdir(posts_dir):
         with open(filepath, "w", encoding="utf-8") as file:
             file.write(content)
 
-print("Markdown files processed, images resized, and copied successfully.")
+print("Markdown files processed, images resized for blog, and copied successfully.")
