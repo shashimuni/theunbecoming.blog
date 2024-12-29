@@ -49,7 +49,7 @@ for filename in os.listdir(posts_dir):
                         resized_img = Image.new("RGB", TARGET_SIZE, (255, 255, 255))
                         
                         # Preserve aspect ratio and center the image
-                        img.thumbnail(TARGET_SIZE, Image.ANTIALIAS)
+                        img.thumbnail(TARGET_SIZE, Image.Resampling.LANCZOS)
                         
                         # Calculate position to paste centered
                         x_offset = (TARGET_SIZE[0] - img.width) // 2
