@@ -30,7 +30,6 @@ draft: False
 ### Introduction
 
 !![Image Description](/images/Pasted%20image%2020241228115507.png)
-   
 
 Ever since the first moment of comprehension, we were asked to become.
 
