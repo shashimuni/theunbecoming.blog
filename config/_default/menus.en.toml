@@ -13,7 +13,7 @@ weight = 2
 
 [[main]]
 name = "Elements"
-url = "/elements"
+url = "/Elements"
 weight = 3
 
 [[main]]
@@ -40,24 +40,24 @@ parent = "Pages"
 name = "Categories"
 url = "/categories"
 
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
+#[[main]]
+#parent = "Pages"
+#name = "404 Page"
+#url = "/404"
 
 
 # footer menu
-[[footer]]
-name = "About"
-url = "/about"
-weight = 1
+#[[footer]]
+#name = "About"
+#url = "/about"
+#weight = 1
 
-[[footer]]
-name = "Elements"
-url = "/elements"
-weight = 2
+#[[footer]]
+#name = "Elements"
+#url = "/elements"
+#weight = 2
 
-[[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
-weight = 3
+#[[footer]]
+#name = "Privacy Policy"
+#url = "/privacy-policy"
+#weight = 3
